@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.remotedev.boilerplate.fragments.AboutThisAppFragment">
+
+    <include
+        android:id="@+id/appBarLayout"
+        layout="@layout/include_toolbar_default" />
+
+    <LinearLayout
+        android:id="@+id/app_version_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBarLayout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/content_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_version_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="-0.02"
+            android:text="@string/about_application_version_title"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            tools:text="12.0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_this_app_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_version_container"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/content_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about_app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="-0.02"
+            android:text="@string/about_application_about_title"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp">
+
+            <TextView
+                android:id="@+id/about_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/about_application_about" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

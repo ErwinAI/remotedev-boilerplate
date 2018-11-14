@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2154A5</color>
+    <color name="colorPrimaryDark">#2154A5</color>
+
+    <color name="colorAccent">#A0867B</color>
+    <color name="colorSecondaryAccent">#384044</color>
+    <color name="colorTertiaryAccent">#D7CDCC</color>
+
+    <color name="colorWarmGray">#929292</color>
+    <color name="colorWhite">#F2F2F2</color>
+    <color name="colorBlack">#373737</color>
+    <color name="colorBeige">#F4F1DE</color>
+
+    <color name="colorGrayTransparent">#1e8e8e93</color>
+    <color name="colorGraySecondaryTransparent">#26000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blackTransparent">#c8141414</color>
+
+    <color name="dialog_blue">#007aff</color>
+    <color name="colorDialogSeparator">#66000000</color>
+    <color name="windowBackground">#F3EFEB</color>
+
+    <color name="navBackgroundBlur">#e4e4e4</color>
+    <color name="colorGreen">#b8e986</color>
+
+    <color name="colorDialogWhite">#73ffffff</color>
+    <color name="colorLightGray">#d8d8d8</color>
+    <color name="colorGray">#999899</color>
+    <color name ="colorRed">#ff3434</color>
+</resources>
